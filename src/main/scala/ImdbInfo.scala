@@ -46,6 +46,8 @@ object ImdbInfo {
       , "inner")
       .select(ratings_with_title("title"),princpal_with_name("primaryName")
         .alias("Person"))
+    /*write the final dataframe */
+     final_df.repartition(final_df("title")).write.csv("src/main/resources/final")
 
 
   }
