@@ -66,7 +66,13 @@ TestCases are available in src/main/test/scala/MovieStatsTest. This class can be
 
 Missing piece of code:Logging .Will add it soon.
 
-Final Resultant data: 
+Final Resultant data: src/main/resources/final
+
+Source Datasets: The size of each dataset is huge and github not allowing to push larger files .Below files are supposed to be in src/main/resources/  
+name.basics.tsv
+title.akas.tsv
+title.principals.tsv
+title.ratings.tsv
 
 
 
